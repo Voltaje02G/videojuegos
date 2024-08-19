@@ -1,0 +1,132 @@
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d2b48c; /* Marrón claro */
+}
+
+header {
+    background-color: #6e4b3a; /* Marrón oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Posicionamiento relativo para el título 3D */
+}
+
+header h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #8b5e3c; /* Marrón más claro */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #6e4b3a;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 40px 20px; /* Espacio entre secciones */
+    background-color: #f5deb3; /* Marrón claro */
+    border: 2px solid #3b2f2f; /* Marrón oscuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside {
+    background-color: #d2b48c; /* Marrón más claro */
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #3b2f2f; /* Marrón oscuro */
+    border-radius: 10px;
+    float: right;
+    width: 25%;
+}
+
+footer {
+    background-color: #6e4b3a; /* Marrón oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Información Personal */
+#personal-info {
+    background-color: #d3d3d3; /* Gris claro */
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Información de videojuegos */
+.game-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.game-info th, .game-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.game-info th {
+    background-color: #6e4b3a; /* Marrón oscuro */
+    color: white;
+}
+
+/* Aplicación del modelo de caja y posición */
+header, nav, section, aside, footer {
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.review, .news {
+    margin-bottom: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos - www.misvideojuegos.com</title>
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: #d2b48c; /* Marrón claro */
+            color: #3b2f2f; /* Texto marrón oscuro */
+            font-family: 'Georgia', serif; /* Fuente serif para un estilo más anticuado */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #6e4b3a; /* Marrón oscuro */
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #8b5e3c; /* Marrón más claro para el hover */
+            color: black;
+        }
+
+        header#main-header {
+            background-color: #6e4b3a; /* Marrón oscuro */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header#main-header h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000; /* Efecto 3D */
+        }
+
+        header#main-header img {
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        section {
+            background-color: #f5deb3; /* Marrón claro */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 40px 20px; /* Más espacio entre secciones */
+        }
+
+        .description {
+            text-align: center;
+        }
+
+        .description p,
+        .topics ul,
+        .game-info p,
+        .opinions p {
+            font-size: 18px;
+        }
+
+        #personal-info {
+            background-color: #d3d3d3; /* Fondo gris claro */
+            color: #000;
+            font-family: 'Arial', sans-serif; /* Fuente llamativa */
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #personal-info p {
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #6e4b3a; /* Marrón oscuro */
+            color: white;
+        }
+
+        a {
+            color: #6e4b3a; /* Marrón oscuro */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* Selectores descendientes */
+        .topics ul li a {
+            font-weight: bold;
+            color: #6e4b3a; /* Marrón oscuro */
+        }
+
+        .topics ul li a:hover {
+            color: #8b5e3c; /* Marrón más claro */
+        }
+
+        /* Agrupación de selectores tipo id y class */
+        #personal-info p,
+        .description p {
+            color: #3b2f2f; /* Marrón oscuro */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#descripcion">Descripción</a></li>
+            <li><a href="#reseñas">Reseñas de Juegos</a></li>
+            <li><a href="#novedades">Novedades y Lanzamientos</a></li>
+            <li><a href="#personal-info">Información Personal</a></li>
+        </ul>
+    </nav>
+
+    <header id="main-header">
+        <h1>Videojuegos</h1>
+        <img src="216057935-icono-de-letra-v-mayúscula-dorada-con-una-flecha-brillante-sobre-un-fondo-negro.jpg" alt="Imagen del autor" width="200">
+    </header>
+    
+    <section id="descripcion" class="description">
+        <h2>Descripción</h2>
+        <p>
+            Bienvenido a mi sitio web dedicado a los videojuegos. Aquí encontrarás información sobre los juegos más populares, novedades del mundo gamer, reseñas, y mucho más.
+        </p>
+    </section>
+    
+    <section id="reseñas">
+        <h2>Reseñas de Juegos</h2>
+        <p>
+            <strong>The Legend of Zelda: Breath of the Wild</strong>: Un juego de aventura y exploración aclamado por su diseño de mundo abierto y libertad. Los jugadores deben rescatar a la princesa Zelda y derrotar a Ganon.
+        </p>
+        <p>
+            <strong>The Witcher 3: Wild Hunt</strong>: Un RPG con una narrativa profunda y un mundo inmersivo. Sigue las aventuras de Geralt de Rivia, un cazador de monstruos.
+        </p>
+        <p>
+            <strong>Fortnite</strong>: Conocido por su modo Battle Royale y constantes actualizaciones. Los jugadores luchan para ser el último en pie en un mapa que se reduce constantemente.
+        </p>
+        <p>
+            <strong>Cyberpunk 2077</strong>: Aunque el lanzamiento estuvo marcado por problemas técnicos, el juego ha mejorado con actualizaciones y ofrece una experiencia inmersiva en un mundo futurista.
+        </p>
+        <p>
+            <strong>Red Dead Redemption 2</strong>: Un título aclamado por su narrativa y su detallado mundo abierto. Los jugadores asumen el papel de un forajido en el Lejano Oeste.
+        </p>
+    </section>
+    
+    <section id="novedades">
+        <h2>Novedades y Lanzamientos</h2>
+        <p>
+            <strong>The Legend of Zelda: Breath of the Wild</strong>: El próximo DLC traerá nuevas misiones y áreas para explorar, mejorando aún más la experiencia del juego.
+        </p>
+        <p>
+            <strong>The Witcher 3: Wild Hunt</strong>: Se ha anunciado una nueva expansión que añadirá historias adicionales y nuevos personajes al juego.
+        </p>
+        <p>
+            <strong>Fortnite</strong>: La nueva temporada incluirá un mapa renovado con eventos especiales para celebrar el aniversario del juego.
+        </p>
+        <p>
+            <strong>Cyberpunk 2077</strong>: Recientes actualizaciones han corregido muchos de los problemas iniciales y añadido nuevas misiones y características.
+        </p>
+        <p>
+            <strong>Red Dead Redemption 2</strong>: Una nueva actualización incluye contenido adicional para la modalidad online y eventos especiales en el juego.
+        </p>
+    </section>
+    
+    <section id="tabla" class="game-info">
+        <h2>Información sobre Videojuegos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="center">Nombre del Juego</th>
+                    <th class="center">Género</th>
+                    <th class="center">Plataforma</th>
+                    <th class="center">Fecha de Lanzamiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="underline">The Legend of Zelda: Breath of the Wild</td>
+                    <td>Aventura</td>
+                    <td>Nintendo Switch</td>
+                    <td>3 de marzo de 2017</td>
+                </tr>
+                <tr>
+                    <td class="underline">The Witcher 3: Wild Hunt</td>
+                    <td>RPG</td>
+                    <td>PC, PS4, Xbox One, Nintendo Switch</td>
+                    <td>19 de mayo de 2015</td>
+                </tr>
+                <tr>
+                    <td class="underline">Fortnite</td>
+                    <td>Battle Royale</td>
+                    <td>PC, PS4, Xbox One, Nintendo Switch, Mobile</td>
+                    <td>25 de julio de 2017</td>
+                </tr>
+                <tr>
+                    <td class="underline">Cyberpunk 2077</td>
+                    <td>RPG</td>
+                    <td>PC, PS4, Xbox One, PS5, Xbox Series X/S</td>
+                    <td>10 de diciembre de 2020</td>
+                </tr>
+                <tr>
+                    <td class="underline">Red Dead Redemption 2</td>
+                    <td>Aventura</td>
+                    <td>PC, PS4, Xbox One</td>
+                    <td>26 de octubre de 2018</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="opiniones">
+        <h2>Opiniones y Debates</h2>
+        <p>
+            <strong>The Legend of Zelda: Breath of the Wild</strong>: La mayoría de los jugadores adoran la libertad del juego, aunque algunos sienten que la historia principal podría ser más fuerte.
+        </p>
+        <p>
+            <strong>The Witcher 3: Wild Hunt</strong>: La narrativa es elogiada universalmente, pero algunos jugadores consideran que las mecánicas de combate podrían mejorarse.
+        </p>
+        <p>
+            <strong>Fortnite</strong>: Es muy popular, pero existe un debate sobre la influencia de las microtransacciones en la experiencia de juego.
+        </p>
+        <p>
+            <strong>Cyberpunk 2077</strong>: Los problemas técnicos iniciales crearon una gran controversia, aunque el juego ha mejorado considerablemente con actualizaciones.
+        </p>
+        <p>
+            <strong>Red Dead Redemption 2</strong>: La calidad de la narrativa es ampliamente apreciada, pero el ritmo lento de algunas partes del juego ha sido un punto de crítica.
+        </p>
+    </section>
+    
+    <section id="personal-info">
+        <h2>Información Personal</h2>
+        <p>
+            Nombre: Kevin Bonilla
+        </p>
+        <p>
+            Contacto: 300 3297253
+        </p>
+        <p>
+            Correo: <a href="mailto:Voltaje02G@gmail.com">Voltaje02G@gmail.com</a>
+        </p>
+        <p>
+            Institución: Skolmi
+        </p>
+    </section>
+</body>
+</html>
